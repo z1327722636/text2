@@ -1,0 +1,20 @@
+MYSHELL  Commands Manual                    pwd
+
+NAME
+       rm - 删除一个或多个文件
+
+SYNOPSIS
+       rm [FILE]...
+
+DESCRIPTION
+       rm 命令用于删除一个或多个指定的文件。如果文件不存在，它将忽略并继续删除其他文件。
+
+OPTIONS
+       无
+
+EXAMPLES
+       删除一个文件:
+          rm file.txt
+
+       删除多个文件:
+          rm file1.txt file2.txt file3.txt

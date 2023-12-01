@@ -1,0 +1,32 @@
+MYSHELL  Commands Manual                    ls
+
+NAME
+       ls - 列出目录中的文件和子目录
+
+SYNOPSIS
+       ls [OPTION]... [DIRECTORY]...
+
+DESCRIPTION
+       ls 命令用于列出指定目录中的文件和子目录。
+
+OPTIONS
+       -l     显示文件的详细信息，包括权限、所有者、组、大小和修改时间。
+
+       -a     显示隐藏文件，包括以点开头的文件和目录。
+
+DIRECTORY
+       要列出文件和子目录的目录。如果未指定目录，默认为当前目录,
+       只能读取一个目录不能读取一个文件。
+
+EXAMPLES
+       
+
+       2. 列出指定目录中的所有文件和子目录:
+          ls /path/to/directory
+
+       3. 列出当前目录中的隐藏文件:
+          ls -a
+
+       4. 列出指定目录中的详细信息:
+          ls -l /path/to/directory
+

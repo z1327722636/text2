@@ -1,0 +1,16 @@
+MYSHELL  Commands Manual                    cd
+
+NAME
+       cd - 切换当前工作目录
+
+SYNOPSIS
+       cd [DIRECTORY]
+
+DESCRIPTION
+       cd命令用于更改当前工作目录。
+
+OPTIONS
+       DIRECTORY  要切换到的目录。如果未提供DIRECTORY参数，将会报错。
+
+EXAMPLES
+       cd /home/user1   切换到 /home/user1 目录

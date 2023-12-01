@@ -1,0 +1,20 @@
+MYSHELL  Commands Manual                    cat
+
+NAME
+       cat - 显示一个或多个文件的内容
+
+SYNOPSIS
+       cat [FILE]...
+
+DESCRIPTION
+       cat 命令用于显示一个或多个文件的内容。
+
+OPTIONS
+       无
+
+EXAMPLES
+       显示文件的内容:
+          cat file.txt
+
+       显示多个文件的内容:
+          cat file1.txt file2.txt file3.txt

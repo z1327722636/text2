@@ -1,0 +1,22 @@
+MYSHELL  Commands Manual                    >
+
+NAME
+       > - 输出重定向
+
+SYNOPSIS
+     [COMMAND]/[./xxx/x.out]  > [FILE] 
+
+DESCRIPTION
+       > 命令用于将命令或者源程序的输出重定向到指定的文件。用户可以指定一个文件名（FILE）作为重定向的目标，然后在该文件中存储命令的输出。
+            如果没有此文件会自动生存
+            
+OPTIONS
+       无
+
+EXAMPLES
+       将命令的输出重定向到指定文件：
+        ls -l  > b.txt 
+
+       追加命令的输出到指定文件：
+          ，/m/b >  b.txt 
+

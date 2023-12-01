@@ -1,0 +1,14 @@
+MYSHELL  Commands Manual                    pwd
+
+NAME
+       pwd - 显示当前工作目录
+
+SYNOPSIS
+       pwd
+
+DESCRIPTION
+       pwd 命令用于显示当前工作目录的路径。
+
+EXAMPLES
+       显示当前工作目录:
+          pwd

@@ -1,0 +1,20 @@
+MYSHELL  Commands Manual                    rmdir
+
+NAME
+       rmdir - 删除一个或多个目录
+
+SYNOPSIS
+       rmdir [DIRECTORY]...
+
+DESCRIPTION
+       rmdir 命令用于删除一个或多个指定的目录。目录必须为空才能成功删除。
+
+OPTIONS
+       无
+
+EXAMPLES
+       删除一个目录:
+          rmdir my_directory
+
+       删除多个目录:
+          rmdir dir1 dir2 dir3

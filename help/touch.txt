@@ -1,0 +1,20 @@
+MYSHELL  Commands Manual                    rmdir
+
+NAME
+       touch - 创建一个或多个空文件
+
+SYNOPSIS
+       touch [FILE]...
+
+DESCRIPTION
+       touch 命令用于创建一个或多个指定的空文件。
+
+OPTIONS
+       无
+
+EXAMPLES
+       创建一个空文件:
+          touch file.txt
+
+       创建多个空文件:
+          touch file1.txt file2.txt file3.txt

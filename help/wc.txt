@@ -1,0 +1,30 @@
+MYSHELL  Commands Manual                    wc
+
+NAME
+       wc - 统计文件的字符数、单词数和行数
+
+SYNOPSIS
+       wc [OPTION]... [FILE]...
+
+DESCRIPTION
+       wc 命令用于统计文件的字符数、单词数和行数。
+
+OPTIONS
+       -c     仅显示字符数。
+
+       -l     仅显示行数。
+
+       -w     仅显示单词数。
+
+EXAMPLES
+       统计文件的字符数、单词数和行数:
+          wc file.txt
+
+       仅统计字符数:
+          wc -c file.txt
+
+       仅统计行数:
+          wc -l file.txt
+
+       仅统计单词数:
+          wc -w file.txt

@@ -1,0 +1,40 @@
+MYSHELL  Commands Manual                    echo
+
+NAME
+       echo - 显示一行文本
+
+SYNOPSIS
+       echo [OPTION]... [STRING]...
+
+DESCRIPTION
+       echo 命令用于在标准输出上显示指定的字符串或文本。
+
+OPTIONS
+       -n     不输出行尾的换行符。
+
+       -e     允许对下面列出的加反斜线转义的字符进行解释。
+
+       STRING  要显示的字符串。可以包含空格，标点符号和特殊字符。
+
+        \\ 替换为反斜线
+        \a 替换为报警符（BEL）
+        \b 替换为退格符
+        \c 替换为禁止尾随的换行符
+        \f 替换为换页符
+        \n 替换为换行符
+        \r 替换为回车符
+        \t 替换为水平制表符
+        \v 替换为纵向制表符
+        \xNN 替换为字符的ASCII代码为 NN（十六进制）
+
+EXAMPLES
+       1. 显示文本 "Hello, World!" 并换行:
+          echo "Hello, World!"
+
+       2. 显示文本 "Hello" 和 "World!" 并不换行:
+          echo -n "Hello "
+          echo "World!"
+
+       3. 显示特殊字符的转义序列，例如换行符和制表符:
+          echo -e "This is a new line.\nThis is a tab:\tHere it is."
+
